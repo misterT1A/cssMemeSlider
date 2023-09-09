@@ -1,21 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="wrapper">
-        <div class="slider_inner">
-            <div class="slider">
-                <img src="./img/mem1.png" alt="mem1">
-                <img src="./img/mem2.png" alt="mem2">
-                <img src="./img/mem3.png" alt="mem3">
-                <img src="./img/mem4.png" alt="mem4">
+    <div class="container">
+        <div class="wrapper">
+            <input id="slide1" type="radio" name="btn" checked>
+            <input id="slide2" type="radio" name="btn">
+            <input id="slide3" type="radio" name="btn">
+            <input id="slide4" type="radio" name="btn">
+
+            <div class="slider_inner">
+                <div class="slider">
+                    <img src="./img/mem1.png" alt="mem1">
+                    <img src="./img/mem2.png" alt="mem2">
+                    <img src="./img/mem3.png" alt="mem3">
+                    <img src="./img/mem4.png" alt="mem4">
+                </div>
             </div>
+            <div class="text_wrapper">
+                <div class="text_slider">
+                    
+                </div>
+                <div class="buttons">
+                    <label for="slide1" class="label label1">
+                        <div></div>
+                    </label>
+                    <label for="slide2" class="label label2">
+                        <div></div>
+                    </label>
+                    <label for="slide3" class="label label3">
+                        <div></div>
+                    </label>
+                    <label for="slide4" class="label label4">
+                        <div></div>
+                    </label>
+                </div>
+            </div>
+
         </div>
+
+
+
     </div>
 </body>
+
 </html>
